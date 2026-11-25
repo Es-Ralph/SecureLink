@@ -1,0 +1,82 @@
+/* General styling for the website */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+    color: #101828;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #101828;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #00C2A8;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00C2A8;
+}
+
+/* Main content styling */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #2563EB;
+}
+
+/* Footer */
+footer {
+    background-color: #101828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLink | Audio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #263238;
+        }
+
+        header {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        nav {
+            background-color: #243b53;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .audio-card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SecureLink Audio Gallery</h1>
+        <p>Discover smarter security through audio presentations.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pictures.html">Pictures</a>
+        <a href="audio.html">Audio</a>
+        <a href="videos.html">Videos</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+        <section class="audio-card">
+            <h2>1. Welcome to SecureLink</h2>
+            <p>
+                Listen to an introduction to SecureLink and learn how
+                the platform helps users discover smart security providers.
+            </p>
+
+            <audio controls>
+                <source src="audio/securelink-introduction.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+        </section>
+
+        <section class="audio-card">
+            <h2>2. Smart Security Awareness</h2>
+            <p>
+                Learn about the benefits of connected security devices
+                and how technology can make property protection more convenient.
+            </p>
+
+            <audio controls>
+                <source src="audio/smart-security-awareness.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SecureLink. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

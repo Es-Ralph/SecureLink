@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLink | About</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #263238;
+        }
+
+        header {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        nav {
+            background-color: #243b53;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f0c75e;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .profile-card img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #102a43;
+        }
+
+        h2 {
+            color: #102a43;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        button {
+            background-color: #102a43;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #243b53;
+        }
+
+        #message {
+            color: #102a43;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>About SecureLink</h1>
+        <p>Discover the person behind the project.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pictures.html">Pictures</a>
+        <a href="audio.html">Audio</a>
+        <a href="videos.html">Videos</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+        <section class="profile-card">
+
+            <img src="images/ralph.jpg" alt="Profile picture">
+
+            <h2>About the Developer</h2>
+
+            <p>
+                Hello! My name is Rapheal Akwasi Agyapong. I am an Information Technology
+                student with an interest in software development,
+                networking, cybersecurity and Artificial Intelligence.
+            </p>
+
+            <p>
+                I developed SecureLink as a project to help people
+                discover providers offering Alarm.com-powered security
+                solutions. The platform demonstrates how web technologies
+                can make information more accessible and useful.
+            </p>
+
+            <button onclick="showMessage()">Learn More</button>
+
+            <p id="message"></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SecureLink. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Thank you for visiting SecureLink! Stay connected and explore smarter security solutions.";
+        }
+    </script>
+
+</body>
+</html>
